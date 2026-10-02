@@ -69,7 +69,26 @@ export const projects: readonly Project[] = [
       implementation: 'The system separates model predictions from signal recommendations. A bounded optimization layer applies the 20–90 second green-phase limits and exact 180-second cycle before recommendations are evaluated in a queue-based simulation. The dashboard presents the prediction, forecast, signal plan, simulation comparison, and environmental interpretation as one workflow.',
       outcomes: 'The repository documents an end-to-end prototype that connects ML prediction to constrained signal planning and simulation-based evaluation. Add measured experiment results here only after confirming them from the project outputs; no real-world congestion reduction or emissions reduction is claimed.',
       notes: 'Academic prototype using synthetic/simulated traffic data. It does not control real traffic signals, connect to municipal infrastructure, or measure real-world emissions. Environmental values are model-based estimates, not direct sensor measurements.',
-      media: [],
+      media: [
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/AI-Urban-Traffic-Command-Center/main/docs/screenshots/overview.png',
+          kind: 'image',
+          alt: 'AI Urban Traffic Command Center overview dashboard',
+          caption: 'Command Center — the main dashboard for traffic intelligence and signal planning.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/AI-Urban-Traffic-Command-Center/main/docs/screenshots/live-city-map.png',
+          kind: 'image',
+          alt: 'Simulated urban traffic network map',
+          caption: 'Live City Network — a visual overview of the simulated junction network.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/AI-Urban-Traffic-Command-Center/main/docs/screenshots/environment.png',
+          kind: 'image',
+          alt: 'Environmental intelligence dashboard for simulated traffic',
+          caption: 'Environmental Intelligence — model-based environmental estimates derived from simulation outputs.',
+        },
+      ],
     },
   },
 ] satisfies readonly Project[];
