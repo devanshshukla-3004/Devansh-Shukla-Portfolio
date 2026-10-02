@@ -2,11 +2,11 @@
 export type ExternalUrl = `https://${string}`;
 
 export type ProjectMedia = {
-  src: `/media/projects/${string}`;
+  src: `/media/projects/${string}` | ExternalUrl;
   kind: 'image' | 'gif' | 'video';
   alt: string;
   caption?: string;
-  poster?: `/media/projects/${string}`;
+  poster?: `/media/projects/${string}` | ExternalUrl;
 };
 
 export type ProjectCaseStudy = {
