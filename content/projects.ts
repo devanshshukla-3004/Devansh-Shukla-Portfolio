@@ -37,6 +37,7 @@ export const projects: readonly Project[] = [
     tags: ['Python', 'Machine Learning', 'FastAPI', 'Traffic Simulation', 'Environmental Analysis'],
     githubUrl: 'https://github.com/devanshshukla-3004/AI-Urban-Traffic-Command-Center',
     liveUrl: 'https://ai-urban-traffic-command-center.onrender.com/',
+    videoUrl: 'https://youtu.be/LpmQ1EvWxpo',
     caseStudy: {
       problem: 'Urban congestion can increase travel delay, vehicle idle time, fuel use, and vehicle-related environmental impact. Static dashboards alone do not show how a traffic prediction can inform a decision or how that decision might perform under controlled conditions.',
       solution: 'An academic decision-support prototype that follows an Observe → Predict → Decide → Simulate → Measure workflow. It turns predicted congestion and demand into bounded signal-timing recommendations, then compares an AI-assisted strategy with a fixed-time baseline in a simulated traffic network.',
