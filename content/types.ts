@@ -30,6 +30,7 @@ export type Project = {
   caseStudy: ProjectCaseStudy;
   githubUrl?: ExternalUrl;
   liveUrl?: ExternalUrl;
+  videoUrl?: ExternalUrl;
 };
 
 export type CertificateMedia = {
