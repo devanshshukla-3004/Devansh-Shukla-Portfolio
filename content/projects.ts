@@ -140,6 +140,12 @@ export const projects: readonly Project[] = [
       notes: 'Academic prototype using synthetic/simulated traffic data. It does not control real traffic signals, connect to municipal infrastructure, or measure real-world emissions. Environmental values are model-based estimates, not direct sensor measurements.',
       media: [
         {
+          src: 'https://www.youtube-nocookie.com/embed/LpmQ1EvWxpo',
+          kind: 'youtube',
+          alt: 'AI-driven Smart Urban Traffic Management System video walkthrough',
+          caption: 'Project walkthrough — watch the traffic command center demonstration.',
+        },
+        {
           src: 'https://raw.githubusercontent.com/devanshshukla-3004/AI-Urban-Traffic-Command-Center/main/docs/screenshots/overview.png',
           kind: 'image',
           alt: 'AI Urban Traffic Command Center overview dashboard',
