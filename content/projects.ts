@@ -46,7 +46,56 @@ export const projects: readonly Project[] = [
       implementation: 'The project prepares workforce features for analysis, explores attrition patterns through interactive visualizations, and evaluates a class-balanced Logistic Regression baseline using a stratified 75/25 train/test split. The dashboard organizes findings into focused views for workforce overview, demographics, compensation, attrition drivers, risk analysis and raw data.',
       outcomes: 'On the documented evaluation split, the baseline model achieved 78.0% accuracy, 64.4% recall, 38.8% precision and 0.81 ROC-AUC. These results describe this dataset and split only; they do not establish real-world predictive performance.',
       notes: 'Uses the fictional IBM HR Analytics Employee Attrition & Performance dataset (1,470 employee records). Observed relationships do not establish causation. Risk scores should support review and conversation—not automated employment decisions or judgments about individual employees.',
-      media: [],
+      media: [
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/HR-Employee-Attrition-and-Workforce-Analytics-Dashboard/main/screenshots/demo.gif',
+          kind: 'gif',
+          alt: 'Animated walkthrough of the HR Employee Attrition and Workforce Analytics Dashboard',
+          caption: 'Product walkthrough — explore the dashboard flow and interactive analytics views.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/HR-Employee-Attrition-and-Workforce-Analytics-Dashboard/main/screenshots/01-overview.png',
+          kind: 'image',
+          alt: 'HR workforce analytics overview with headline KPIs and attrition charts',
+          caption: 'Overview — workforce KPIs and the overall attrition picture.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/HR-Employee-Attrition-and-Workforce-Analytics-Dashboard/main/screenshots/02-demographics.png',
+          kind: 'image',
+          alt: 'Demographic breakdowns in the HR attrition dashboard',
+          caption: 'Demographics — explore workforce and attrition patterns across employee groups.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/HR-Employee-Attrition-and-Workforce-Analytics-Dashboard/main/screenshots/03-work-compensation.png',
+          kind: 'image',
+          alt: 'Work and compensation analytics in the HR dashboard',
+          caption: 'Work & compensation — compare job, income and tenure patterns.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/HR-Employee-Attrition-and-Workforce-Analytics-Dashboard/main/screenshots/04-left-vs-stayed.png',
+          kind: 'image',
+          alt: 'Comparison of employees who left and employees who stayed',
+          caption: 'Left vs. stayed — compare characteristics across attrition outcomes.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/HR-Employee-Attrition-and-Workforce-Analytics-Dashboard/main/screenshots/05-attrition-drivers.png',
+          kind: 'image',
+          alt: 'Attrition driver analysis view in the HR workforce dashboard',
+          caption: 'Attrition drivers — investigate patterns associated with employee exits.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/HR-Employee-Attrition-and-Workforce-Analytics-Dashboard/main/screenshots/06-risk-list.png',
+          kind: 'image',
+          alt: 'Filterable employee attrition risk analysis list',
+          caption: 'Risk analysis — a filterable review view with CSV export.',
+        },
+        {
+          src: 'https://raw.githubusercontent.com/devanshshukla-3004/HR-Employee-Attrition-and-Workforce-Analytics-Dashboard/main/screenshots/07-data.png',
+          kind: 'image',
+          alt: 'Dataset exploration view in the HR analytics dashboard',
+          caption: 'Data explorer — inspect the underlying analysis data.',
+        },
+      ],
     },
   },
   {
