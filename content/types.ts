@@ -3,7 +3,7 @@ export type ExternalUrl = `https://${string}`;
 
 export type ProjectMedia = {
   src: `/media/projects/${string}` | ExternalUrl;
-  kind: 'image' | 'gif' | 'video';
+  kind: 'image' | 'gif' | 'video' | 'youtube';
   alt: string;
   caption?: string;
   poster?: `/media/projects/${string}` | ExternalUrl;
